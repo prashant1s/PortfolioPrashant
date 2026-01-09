@@ -113,7 +113,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-full p-2 glow-border">
                 <img
-                  src="./public/projects/profile-photo.jpg"
+                  src="./projects/profile-photo.jpg"
                   alt="Prashant singh"
                   className="w-full aspect-square object-cover rounded-full"
                 />
