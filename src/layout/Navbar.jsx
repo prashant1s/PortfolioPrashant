@@ -4,10 +4,9 @@ import { useEffect, useState } from "react";
 
 const navLinks = [
   { href: "#about", label: "About" },
+  { href: "#resume", label: "Resume" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact" },
-  { href: "#resume", label: "Resume" },
-  { href: "#about", label: "About" },
 ];
 
 export const Navbar = () => {
@@ -35,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          {/* <span className="text-primary">.</span> */}
         </a>
 
         {/* Desktop Nav */}

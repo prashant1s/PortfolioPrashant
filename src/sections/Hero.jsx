@@ -22,9 +22,6 @@ const skills = [
   "AWS",
   "Vercel",
   "Tailwind CSS",
-//   "Prisma",
-//   "Jest",
-//   "Cypress",
   "Figma",
   "Git",
   "GitHub Actions",
@@ -35,11 +32,11 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
       <div className="absolute inset-0">
-        <img
+        {/* <img
           src="/hero-bg.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
-        />
+        /> */}
         <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
       </div>
 
@@ -52,7 +49,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • MERN Specialist
+                Software Engineer • MERN Stack
               </span>
             </div>
 
@@ -68,9 +65,10 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+               Full-Stack MERN Developer based in New Delhi with 
+               experience building and deploying scalable web 
+               applications. Skilled in React, Node.js, Express, 
+               MongoDB, and REST APIs.
               </p>
             </div>
 
@@ -113,17 +111,17 @@ export const Hero = () => {
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl p-2 glow-border">
+              <div className="relative glass rounded-full p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
-                  alt="Pedro Machado"
-                  className="w-full aspect-4/5 object-cover rounded-2xl"
+                  src="./public/projects/profile-photo.jpg"
+                  alt="Prashant singh"
+                  className="w-full aspect-square object-cover rounded-full"
                 />
 
                 {/* Floating Badge */}
-                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
-                  <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                <div className="absolute -bottom-4 -right-4 glass rounded-full px-2 py-2 animate-float">
+                  <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 bg-green-300 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
                       Available for work
                     </span>

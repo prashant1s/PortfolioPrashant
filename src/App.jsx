@@ -4,7 +4,7 @@ import { About } from "@/sections/About";
 import { Projects } from "@/sections/Projects";
 import { Resume } from "@/sections/Resume";
 import { Contact } from "@/sections/Contact";
-import { Footer } from "./layout/Footer";
+import { Footer } from "@/layout/Footer";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Resume />
         <Contact />
       </main>
+      <Footer/>
     </div>
   );
 }
