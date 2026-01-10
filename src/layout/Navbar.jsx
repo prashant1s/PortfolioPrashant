@@ -3,9 +3,9 @@ import { Menu , X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
    { href: "#resume", label: "Resume" },
+   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -33,18 +33,18 @@ export const Navbar = () => {
         <a
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
-        >
+        >Prashant Singh
           {/* <span className="text-primary">.</span> */}
         </a>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-1">
-          <div className="glass rounded-full px-2 py-1 flex items-center gap-1">
+          <div className="glass rounded-full px-4 py-2 flex items-center gap-4">
             {navLinks.map((link, index) => (
               <a
                 href={link.href}
                 key={index}
-                className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+                className="px-4 py-2 text-base/4 text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
               >
                 {link.label}
               </a>
