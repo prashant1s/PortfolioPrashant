@@ -66,23 +66,6 @@
         color-mix(in srgb, var(--color-primary) 20%, transparent),
       inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
   }
-
-.cta {
-  height: 52px;
-  padding-inline: 28px;
-  border-radius: 9999px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-}
-
-
-
-
 }
 
 @layer utilities {

@@ -73,33 +73,31 @@ export const Hero = () => {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-5 animate-fade-in animation-delay-300">
-              <a href="#contact" className="cta p-0!">
-                 <Button size="lg" >
-                 Contact Me <ArrowRight className="w-5 h-5" />
-                 </Button>
+         <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+               <a href="#contact">
+              <Button size="lg">
+                Contact Me <ArrowRight className="w-5 h-5" />
+              </Button>
               </a>
 
-
- <AnimatedBorderButton
-  className="cta"
+             <AnimatedBorderButton
+  
   onClick={() => window.open("/projects/myresume.pdf", "_blank")}
 >
   <Download className="w-5 h-5" />
   Download CV
 </AnimatedBorderButton>
 
-
-
-                
             </div>
+
+
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/prashant1s" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/prashant-singh-280306399/" },
+                { icon: Twitter, href: "https://x.com/prashantsi60467" },
               ].map((social, idx) => (
                 <a
                   key={idx}
