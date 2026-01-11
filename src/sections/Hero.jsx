@@ -75,12 +75,12 @@ export const Hero = () => {
             {/* CTAs */}
          <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
                <a href="#contact">
-              <Button size="lg">
+              <Button  className="h-13 px-7 text-lg" size="md">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               </a>
 
-             <AnimatedBorderButton
+             <AnimatedBorderButton className="h-13 px-3"
   
   onClick={() => window.open("/projects/myresume.pdf", "_blank")}
 >
