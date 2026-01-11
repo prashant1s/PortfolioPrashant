@@ -74,18 +74,24 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-5 animate-fade-in animation-delay-300">
-              <a href="#contact">
-                 <Button size="lg">
+              <a href="#contact" className="cta p-0!">
+                 <Button size="lg" >
                  Contact Me <ArrowRight className="w-5 h-5" />
                  </Button>
               </a>
 
-                <a href="./projects/myresume.pdf" download>
-                  <AnimatedBorderButton>
-                    <Download className="w-5 h-5" />
-                    Download CV
-                  </AnimatedBorderButton>
-                </a>
+
+ <AnimatedBorderButton
+  className="cta"
+  onClick={() => window.open("/projects/myresume.pdf", "_blank")}
+>
+  <Download className="w-5 h-5" />
+  Download CV
+</AnimatedBorderButton>
+
+
+
+                
             </div>
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
