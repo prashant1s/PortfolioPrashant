@@ -2,20 +2,20 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Realtime Chat App",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      " Developed and deployed a full-stack, real-time chat application using the MERN stack.",
+    image: "./projects/chatapp.png",
+    tags: ["React", "WebSocket", "NodeJS"],
+    link: "https://fullstack-chatapp-t7uz.onrender.com/login",
+    github: "https://github.com/prashant1s/realtime-chat-app",
   },
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "Created a comprehensive food delivery platform replicating core Zomato functionalities.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["React.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
     github: "#",
   },
