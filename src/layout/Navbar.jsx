@@ -1,11 +1,11 @@
 import { Button } from "../components/Button";
-import { Menu , X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const navLinks = [
   { href: "#projects", label: "Projects" },
-   { href: "#resume", label: "Resume" },
-   { href: "#about", label: "About" },
+  { href: "#resume", label: "Resume" },
+  { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -33,7 +33,8 @@ export const Navbar = () => {
         <a
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
-        >Prashant Singh
+        >
+          Prashant Singh
           {/* <span className="text-primary">.</span> */}
         </a>
 
@@ -53,12 +54,11 @@ export const Navbar = () => {
         </div>
 
         {/* CTA Button */}
-       <div className="hidden md:block">
-  <a href="#contact">
-    <Button size="sm">Contact Me</Button>
-  </a>
-</div>
-
+        <div className="hidden md:block">
+          <a href="#contact">
+            <Button size="sm">Contact Me</Button>
+          </a>
+        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -83,20 +83,12 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <a
-  href="#contact"
-  onClick={() => setIsMobileMenuOpen(false)}
->
- <Button className ="w-full">
-    Contact Me
-  </Button>
-</a>
-
-            
+            <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button className="w-full">Contact Me</Button>
+            </a>
           </div>
         </div>
       )}
     </header>
   );
 };
-

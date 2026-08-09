@@ -19,6 +19,33 @@ const projects = [
     link: "#",
     github: "#",
   },
+  {
+    title: "BJ Jewelry",
+    description:
+      "Built a full-featured jewelry e-commerce platform with live gold rate pricing, Razorpay payments, and a Sanity-powered product catalog.",
+    image: "/projects/bjjewelry.png",
+    tags: ["Next.js", "TypeScript", "Prisma", "Razorpay"],
+    link: "https://www.bjjewelry.in/",
+    github: "https://github.com/prashant1s/bjjewelry",
+  },
+  {
+    title: "GoDigital Agency",
+    description:
+      "Designed and developed the marketing website for a performance and brand growth agency, showcasing services across strategy, creative, and e-commerce growth.",
+    image: "/projects/godigital.png",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
+    link: "https://www.godigitalagency.in/",
+    github: "https://github.com/prashant1s/godigital",
+  },
+  {
+    title: "JiyaJR E-Commerce",
+    description:
+      "Developed a modern e-commerce storefront with a Sanity-powered product catalog and a fully responsive shopping experience.",
+    image: "/projects/ecomm.png",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Sanity CMS"],
+    link: "https://www.jiyajr.com/",
+    github: "https://github.com/prashant1s/ecomm",
+  },
 //   {
 //     title: "AI Writing Assistant",
 //     description:
