@@ -11,15 +11,6 @@ const projects = [
     github: "https://github.com/prashant1s/realtime-chat-app",
   },
   {
-    title: "E-Commerce Platform",
-    description:
-      "Created a comprehensive food delivery platform replicating core Zomato functionalities.",
-    image: "/projects/project2.png",
-    tags: ["React.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
     title: "BJ Jewelry",
     description:
       "Built a full-featured jewelry e-commerce platform with live gold rate pricing, Razorpay payments, and a Sanity-powered product catalog.",
